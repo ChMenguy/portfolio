@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import aboutImg from '../Assets/Images/about.png';
+import Pdf from '../CV.pdf'
 
 class About extends Component {
     render() {
@@ -10,14 +11,14 @@ class About extends Component {
                         <div className="col-xl-6 col-lg-6 d-xl-flex d-lg-flex d-block align-items-center">
                             <div className="hx-about-content">
                                 <div className="hx-site-title">
-                                    <span>Expert Web Developer & Designer</span>
-                                    <h2>About Me</h2>
+                                    <span>Developpeur Front-End React & WordPress</span>
+                                    <h2>A PROPOS</h2>
                                 </div>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum</p>
                                 <p>There isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary you need to be sure</p>
                                 
                                 <div className="btns">
-                                    <a href="#" className="theme-btn">Download CV</a>
+                                    <a href={Pdf} target="_blank" className="theme-btn">Mon CV</a>
                                 </div>
                             </div>
                         </div>

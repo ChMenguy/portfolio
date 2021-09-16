@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { fab, faFacebookF, faTwitter, faInstagram, faPinterestP, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faGithub,faLinkedin , faFacebook, faAccessibleIcon, faFacebookF, faTwitter, faInstagram, faPinterest, faPinterestP } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Logo from '../Assets/Images/logo.png';
 
@@ -21,36 +21,21 @@ class Footer extends Component {
                             <div className="footer-menu">
                                 <ul className="d-flex " >
                                     <li>
-                                        <a href="#">
-                                            <FontAwesomeIcon icon={faFacebookF} />
+                                        <a href="https://github.com/ChMenguy">
+                                            <FontAwesomeIcon icon={faGithub} />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="https://twitter.com/ChMengu">
                                             <FontAwesomeIcon icon={faTwitter} />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            <FontAwesomeIcon icon={faInstagram} />
+                                        <a href="https://www.linkedin.com/in/chmenguy/">
+                                            <FontAwesomeIcon icon={faLinkedin} />
                                         </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <FontAwesomeIcon icon={faPinterestP} />
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <FontAwesomeIcon icon={faYoutube} />
-                                        </a>    
                                     </li>
                                 </ul>
-                            </div>
-                        </div>
-                        <div className="col-12">
-                            <div className="footer-sub">
-                                <p><i className="fa fa-copyright"></i>Copyright - 2020<span> Developed by AutWorks</span></p>
                             </div>
                         </div>
                     </div>
