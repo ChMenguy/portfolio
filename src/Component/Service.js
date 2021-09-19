@@ -1,11 +1,24 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import serviceImg_1 from '../Assets/Images/1.jpg';
+import serviceImg_1 from '../Assets/Images/front-end.jpg';
 import serviceImg_2 from '../Assets/Images/2.jpg';
 import serviceImg_3 from '../Assets/Images/3.jpg';
 import serviceImg_4 from '../Assets/Images/4.jpg';
 import serviceImg_5 from '../Assets/Images/5.jpg';
-import serviceImg_6 from '../Assets/Images/6.jpg';
+import serviceImg_6 from '../Assets/Images/cooperation.jpg';
+import Html from '../Assets/Images/skills/html.png';
+import Css from '../Assets/Images/skills/css.png';
+import Js from '../Assets/Images/skills/js.png';
+import ReactLogo from '../Assets/Images/skills/react.png';
+import WordPressLogo from '../Assets/Images/skills/wordpress.png'; 
+import Git from '../Assets/Images/skills/git.png';
+import Slack from '../Assets/Images/skills/slack.png'; 
+import Photoshop from '../Assets/Images/skills/photoshop.png';
+import Illustrator from '../Assets/Images/skills/illustrator.png'; 
+import Tailwind from '../Assets/Images/skills/tailwind.png';
+import Bootstap from '../Assets/Images/skills/bootstrap.png'
+
+
 
 class Service extends Component {
     render () {
@@ -14,8 +27,8 @@ class Service extends Component {
                 <div className="container">
                     <div className="col-12">
                         <div className="section-title text-center">
-                            <span>What I Do</span>
-                            <h2>My Services</h2>
+                            <span>Ce que je fais</span>
+                            <h2>Mes compétences</h2>
                         </div>
                     </div>
                     <div className="row">
@@ -26,8 +39,11 @@ class Service extends Component {
                                         <img src={serviceImg_2}/>
                                     </div>
                                     <div className="hx-service-content">
-                                        <h3>Web Design</h3>
-                                        <p>I am Expert In</p>
+                                        <h3>Intégration Web</h3>
+                                        <div>
+                                            <img src={Html} width="130px"></img>
+                                            <img src={Css} width="130px"></img>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -39,8 +55,11 @@ class Service extends Component {
                                         <img src={serviceImg_1}/>
                                     </div>
                                     <div className="hx-service-content">
-                                        <h3>Web Development</h3>
-                                        <p>I am Expert In</p>
+                                        <h3>Front-End</h3>
+                                        <div>
+                                            <img src={Js} width="130px"></img>
+                                            <img src={ReactLogo} width="130px"></img>  
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -52,8 +71,11 @@ class Service extends Component {
                                         <img src={serviceImg_3}/>
                                     </div>
                                     <div className="hx-service-content">
-                                        <h3>Creative Design</h3>
-                                        <p>I am Expert In</p>
+                                        <h3>Framework CSS</h3>
+                                        <div>
+                                            <img src={Bootstap} width="130px"></img>
+                                            <img src={Tailwind} width="130px"></img>  
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -65,8 +87,10 @@ class Service extends Component {
                                         <img src={serviceImg_4}/>
                                     </div>
                                     <div className="hx-service-content">
-                                        <h3>Responsive Design</h3>
-                                        <p>I am Expert In</p>
+                                        <h3>Gestionnaire de contenus</h3>
+                                        <div>
+                                        <img src={WordPressLogo} width="130px"></img>  
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -78,8 +102,11 @@ class Service extends Component {
                                         <img src={serviceImg_5}/>
                                     </div>
                                     <div className="hx-service-content">
-                                        <h3>Branding Identity</h3>
-                                        <p>I am Expert In</p>
+                                        <h3>Outil de design</h3>
+                                        <div>
+                                            <img src={Photoshop} width="130px"></img>
+                                            <img src={Illustrator} width="130px"></img>  
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -91,9 +118,13 @@ class Service extends Component {
                                         <img src={serviceImg_6}/>
                                     </div>
                                     <div className="hx-service-content">
-                                        <h3>24/Support</h3>
-                                        <p>I am Expert In</p>
+                                        <h3>Outils de collaboration</h3>
+                                        <div>
+                                            <img src={Git} width="130px"></img>
+                                            <img src={Slack} width="130px"></img>  
+                                        </div>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
