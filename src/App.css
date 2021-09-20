@@ -1853,6 +1853,7 @@ page loader
 .pricing-area {
     position: relative;
     padding: 100px 0 70px;
+    background-color: #202020;
 }
 
 .price-item {

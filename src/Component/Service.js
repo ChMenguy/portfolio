@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import serviceImg_1 from '../Assets/Images/front-end.jpg';
-import serviceImg_2 from '../Assets/Images/2.jpg';
-import serviceImg_3 from '../Assets/Images/3.jpg';
-import serviceImg_4 from '../Assets/Images/4.jpg';
-import serviceImg_5 from '../Assets/Images/5.jpg';
+import serviceImg_2 from '../Assets/Images/htmlcss.jpg';
+import serviceImg_3 from '../Assets/Images/framework.jpg';
+import serviceImg_4 from '../Assets/Images/cms.jpg';
+import serviceImg_5 from '../Assets/Images/webdesign.jpg';
 import serviceImg_6 from '../Assets/Images/cooperation.jpg';
 import Html from '../Assets/Images/skills/html.png';
 import Css from '../Assets/Images/skills/css.png';
