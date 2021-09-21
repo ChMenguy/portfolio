@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { faGithub,faLinkedin , faFacebook, faAccessibleIcon, faFacebookF, faTwitter, faInstagram, faPinterest, faPinterestP } from '@fortawesome/free-brands-svg-icons';
+import { faGithub,faLinkedin , faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Slides from '../Assets/Images/slide-2.jpg';
 
@@ -33,17 +33,17 @@ class Banner extends Component {
                 <div className="social-links">
                     <ul>
                         <li>
-                            <a href="https://github.com/ChMenguy" target="_blank">
+                            <a href="https://github.com/ChMenguy" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faGithub} />
                             </a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/ChMengu" target="_blank">
+                            <a href="https://twitter.com/ChMengu" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faTwitter} />
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/chmenguy/" target="_blank">
+                            <a href="https://www.linkedin.com/in/chmenguy/" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faLinkedin} />
                             </a>
                         </li>

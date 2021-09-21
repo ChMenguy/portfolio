@@ -36,13 +36,13 @@ class Service extends Component {
                             <div className="hx-service-item">
                                 <div className="hx-service-single">
                                     <div className="service-img">
-                                        <img src={serviceImg_2}/>
+                                        <img src={serviceImg_2} alt="integration web"/>
                                     </div>
                                     <div className="hx-service-content">
                                         <h3>Intégration Web</h3>
                                         <div>
-                                            <img src={Html} width="130px"></img>
-                                            <img src={Css} width="130px"></img>
+                                            <img src={Html} width="130px" alt="HtmlLogo"></img>
+                                            <img src={Css} width="130px" alt="CssLogo"></img>
                                         </div>
                                     </div>
                                 </div>
@@ -52,13 +52,13 @@ class Service extends Component {
                             <div className="hx-service-item">
                                 <div className="hx-service-single">
                                     <div className="service-img">
-                                        <img src={serviceImg_1}/>
+                                        <img src={serviceImg_1} alt="Front-End"/>
                                     </div>
                                     <div className="hx-service-content">
                                         <h3>Front-End</h3>
                                         <div>
-                                            <img src={Js} width="130px"></img>
-                                            <img src={ReactLogo} width="130px"></img>  
+                                            <img src={Js} width="130px" alt="JsLogo"></img>
+                                            <img src={ReactLogo} width="130px" alt="ReactLogo"></img>  
                                         </div>
                                     </div>
                                 </div>
@@ -68,13 +68,13 @@ class Service extends Component {
                             <div className="hx-service-item">
                                 <div className="hx-service-single">
                                     <div className="service-img">
-                                        <img src={serviceImg_3}/>
+                                        <img src={serviceImg_3} alt="Framework CSS"/>
                                     </div>
                                     <div className="hx-service-content">
                                         <h3>Framework CSS</h3>
                                         <div>
-                                            <img src={Bootstap} width="130px"></img>
-                                            <img src={Tailwind} width="130px"></img>  
+                                            <img src={Bootstap} width="130px" alt="BootstapLogo" ></img>
+                                            <img src={Tailwind} width="130px" alt="TailwindLogo"></img>  
                                         </div>
                                     </div>
                                 </div>
@@ -84,12 +84,12 @@ class Service extends Component {
                             <div className="hx-service-item">
                                 <div className="hx-service-single">
                                     <div className="service-img">
-                                        <img src={serviceImg_4}/>
+                                        <img src={serviceImg_4} alt="Gestionnaire de contenus"/>
                                     </div>
                                     <div className="hx-service-content">
                                         <h3>Gestionnaire de contenus</h3>
                                         <div>
-                                        <img src={WordPressLogo} width="130px"></img>  
+                                        <img src={WordPressLogo} width="130px" alt="WordPressLogo"></img>  
                                         </div>
                                     </div>
                                 </div>

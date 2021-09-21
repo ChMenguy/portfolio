@@ -25,7 +25,6 @@ class PricingPlan extends Component {
                                             </div>
                                             <ul>
                                                 <li>Developpement</li>
-                                                <li>Design</li>
                                                 <li>Responsive</li>
                                                 <li>Référencement</li>
                                             </ul>
@@ -47,10 +46,10 @@ class PricingPlan extends Component {
                                                 <h5>HT Par Jour</h5>
                                             </div>
                                             <ul>
-                                                <li>Developpement spécifiques</li>
-                                                <li>Web Development</li>
-                                                <li>Responsive Design</li>
-                                                <li>Creative Design</li>
+                                                <li>Developpement spécifique</li>
+                                                <li>Sous-traitance</li>
+                                                <li>Intégration web</li>
+                                                s
                                             </ul>
                                             <div className="pricing-footer pricing-footer-2">
                                                 <div className="theme-btn"><a href="#contact">Demander un devis</a></div>
@@ -61,18 +60,18 @@ class PricingPlan extends Component {
                                 <div className="col-l2 col-md-4 col-sm-6 grid  p-out p-out-t">
                                     <div className="price-item price-item-3">
                                         <div className="pricing-header">
-                                            <h3>Premium</h3>
+                                            <h3>Site sur mesure</h3>
                                         </div>
                                         <div className="pricing-table">
                                             <div className="price-sub-header pricing-header-b">
-                                                <h4><span>$</span>50</h4>
-                                                <h5>Per Month</h5>
+                                                <h4>
+                                                    Sur Devis
+                                                </h4>
                                             </div>
                                             <ul>
-                                                <li>Web Design</li>
-                                                <li>Web Development</li>
-                                                <li>Responsive Design</li>
-                                                <li>Creative Design</li>
+                                                <li>Site E-commerce</li>
+                                                <li>Developpement d'outils</li>
+                                                <li>Applications Web</li>
                                             </ul>
                                             <div className="pricing-footer">
                                                 <div className="theme-btn"><a href="#contact">Demander un devis</a></div>

@@ -43,7 +43,7 @@ class Porfolio extends Component {
 
                                    <img src={Gallery_1} className="img img-responsive" alt="" />
                                     <div className="icon">
-                                        <a href="https://www.artnumeriqueplanetec7.fr/" target="_blank" className="view-icon">
+                                        <a href="https://www.artnumeriqueplanetec7.fr/" target="_blank" rel="noopener noreferrer" className="view-icon">
                                             <FontAwesomeIcon icon={faPlus} /> 
                                         </a>
                                     </div>
