@@ -19,7 +19,7 @@ class Banner extends Component {
                                         <h4>Christophe Menguy</h4>
                                     </div>
                                     <div className="slide-title">
-                                        <h2>Developpeur Front-end React</h2>
+                                        <h2>Developpeur Front-end ReactT</h2>
                                     </div>
                                     <div className="btns">
                                         <a href="#contact" className="theme-btn go-contact-area">Contactez Moi</a>
