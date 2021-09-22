@@ -6,7 +6,7 @@ import Home_2 from '../Assets/Images/home/about.jpg';
 import Home_3 from '../Assets/Images/home/skills.jpg';
 import Home_4 from '../Assets/Images/home/portfolio.jpg';
 import Home_5 from '../Assets/Images/home/price.jpg';
-import Home_6 from '../Assets/Images/home/img-6.jpg';
+import Home_6 from '../Assets/Images/home/contact.jpg';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
 class Header extends Component {
