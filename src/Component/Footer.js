@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faGithub,faLinkedin , faFacebook, faAccessibleIcon, faFacebookF, faTwitter, faInstagram, faPinterest, faPinterestP } from '@fortawesome/free-brands-svg-icons';
+import { faGithub,faLinkedin ,faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Logo from '../Assets/Images/logo.png';
+import CookieConsent from "react-cookie-consent";
 
 class Footer extends Component {
     render() {
@@ -40,6 +41,12 @@ class Footer extends Component {
                         </div>
                     </div>
                 </div>
+                <CookieConsent
+                    buttonText= "Accepter"
+                    buttonStyle={{ backgroundColor: "#002735" , color: "white" }}
+                >
+                    Ce site Web utilise des cookies dans le but d'optimiser votre visite.
+                </CookieConsent>
             </div>
         );
     }

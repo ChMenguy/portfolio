@@ -1,11 +1,11 @@
 import React, { Component} from 'react';
 import Logo from '../Assets/Images/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Home_1 from '../Assets/Images/home/img-1.jpg';
-import Home_2 from '../Assets/Images/home/img-2.jpg';
-import Home_3 from '../Assets/Images/home/img-3.jpg';
-import Home_4 from '../Assets/Images/home/img-4.jpg';
-import Home_5 from '../Assets/Images/home/img-5.jpg';
+import Home_1 from '../Assets/Images/home/home.jpg';
+import Home_2 from '../Assets/Images/home/about.jpg';
+import Home_3 from '../Assets/Images/home/skills.jpg';
+import Home_4 from '../Assets/Images/home/portfolio.jpg';
+import Home_5 from '../Assets/Images/home/price.jpg';
 import Home_6 from '../Assets/Images/home/img-6.jpg';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
@@ -59,6 +59,11 @@ class Header extends Component {
                                 <li className="portfolio">
                                     <a href="#portfolio">
                                         <img src={Home_4} alt=""/>
+                                    </a>
+                                </li>
+                                <li className="price">
+                                    <a href="#price">
+                                        <img src={Home_5} alt=""/>
                                     </a>
                                 </li>
                                 <li className="contact">

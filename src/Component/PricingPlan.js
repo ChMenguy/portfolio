@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class PricingPlan extends Component {
     render() {
         return (
-            <div className="pricing-area ptb-100-70">
+            <div className="pricing-area ptb-100-70" id="price">
                 <div className="container">
                     <div className="section-title text-center">
                         <span>I Give You The Best</span>

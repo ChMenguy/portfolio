@@ -923,7 +923,7 @@ button:focus {
 .header-style-1 .service a:before,
 .header-style-1 .portfolio a:before,
 .header-style-1 .contact a:before,
-.header-style-1 .blog a:before{
+.header-style-1 .price a:before{
   position: absolute;
   left: 0;
   top: 0;
@@ -944,7 +944,7 @@ button:focus {
 .header-style-1 .service a:after,
 .header-style-1 .portfolio a:after,
 .header-style-1 .contact a:after,
-.header-style-1 .blog a:after{
+.header-style-1 .price a:after{
     position: absolute;
     left: 0;
     top: 0;
@@ -961,14 +961,14 @@ button:focus {
     opacity: 0;
     transition: all .5s;
 }
-.header-style-1 .blog a:after{
-  content: "blog";
+.header-style-1 .price a:after{
+  content: "Prix";
 }
 .header-style-1 .about a:after{
-  content: "About Me";
+  content: "A propos";
 }
 .header-style-1 .service a:after{
-  content: "Service";
+  content: "Compétences";
 }
 .header-style-1 .portfolio a:after{
   content: "portfolio";
@@ -981,7 +981,7 @@ button:focus {
 .header-style-1 .service a:hover:after,
 .header-style-1 .portfolio a:hover:after,
 .header-style-1 .contact a:hover:after,
-.header-style-1 .blog a:hover:after{
+.header-style-1 .price a:hover:after{
   opacity: 1;
 }
 .header-style-1 .home a:hover:before,
@@ -989,7 +989,7 @@ button:focus {
 .header-style-1 .service a:hover:before,
 .header-style-1 .portfolio a:hover:before,
 .header-style-1 .contact a:hover:before,
-.header-style-1 .blog a:hover:before{
+.header-style-1 .price a:hover:before{
   opacity: .9;
 }
 .nav>li>a {
@@ -2230,7 +2230,7 @@ page loader
 .contact-area form .half-col,
 .contact-area-s2 form .half-col {
     width: 50%;
-    float: left;
+    float: left; 
 }
 
 @media (max-width: 600px) {

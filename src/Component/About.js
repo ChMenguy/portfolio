@@ -11,11 +11,11 @@ class About extends Component {
                         <div className="col-xl-6 col-lg-6 d-xl-flex d-lg-flex d-block align-items-center">
                             <div className="hx-about-content">
                                 <div className="hx-site-title">
-                                    <span>Developpeur Front-End React & WordPress</span>
+                                    <span>Christophe MENGUY || Developpeur Front-End React & WordPress</span>
                                     <h2>A PROPOS</h2>
                                 </div>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum</p>
-                                <p>There isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary you need to be sure</p>
+                                <p style={{color:'white'}}>Je met à votre service mon expertise pour la réalisation de tous vos projets digitaux du simple site vitrine à l'application web plus complexe en passant par le site de vente en ligne. Ainsi je vous réaliserai une proposition détaillée et totalement personnalisée à votre entreprise ainsi qu'à vos objectifs</p>
+                                <p style={{color:'white'}}>Mes services comprennent, au delà du developpement technique de la solution demandée, un véritable regard d'expert afin d'opter pour la meilleure option pour votre entreprise.</p>
                                 
                                 <div className="btns">
                                     <a href={Pdf} target="_blank" className="theme-btn">Mon CV</a>
