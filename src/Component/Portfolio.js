@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import { library } from '@fortawesome/fontawesome-svg-core';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
-import { fab, faFacebook, faFacebookF } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Gallery_1 from '../Assets/Images/gallery/planeteculture.jpg';
 import Gallery_2 from '../Assets/Images/gallery/newsletter.jpg';
@@ -37,7 +34,7 @@ class Porfolio extends Component {
                                 <div className={this.state.isOpen ? "grid" : "grid open"
                                     }>
                                     <div>
-                                        <h3 style={{color: "white"}}>CRÉATION DE SITE <img src={WordPressLogo} style={{width:"32px"}}></img></h3> 
+                                        <h3 style={{color: "white"}}>CRÉATION DE SITE <img src={WordPressLogo} alt="wordpress" style={{width:"32px"}}></img></h3> 
                                         
                                     </div>
 
@@ -52,8 +49,8 @@ class Porfolio extends Component {
                                     this.state.isOpen ? "grid" : "grid open"}>
                                     <h3 style={{color: "white"}}>
                                         INTEGRATION WEB
-                                        <img src={Html} style={{width:"32px"}}></img>
-                                        <img src={Css} style={{width:"32px"}}></img>
+                                        <img src={Html} style={{width:"32px"}} alt="html"></img>
+                                        <img src={Css} style={{width:"32px"}} alt="css"></img>
                                     </h3> 
                                     <img src={Gallery_2} alt="" className="img img-responsive"/>
                                     <div className="icon">
@@ -67,10 +64,10 @@ class Porfolio extends Component {
                                     && this.state.isOpen ? "grid" : "grid open"}>
                                     <h3 style={{color: "white"}}>
                                         APPLICATION WEB
-                                        <img src={ReactLogo} style={{width:"32px"}}></img>
+                                        <img src={ReactLogo} style={{width:"32px"}} alt="react"></img>
                                     </h3> 
 
-                                    <img src={Gallery_6} alt="" className="img img-responsive"/>
+                                    <img src={Gallery_6} alt="portfolio" className="img img-responsive"/>
                                     <div className="icon">
                                         <a href="#" className="view-icon">
                                             <FontAwesomeIcon icon={faPlus} />

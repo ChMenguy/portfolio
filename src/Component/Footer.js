@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { library } from '@fortawesome/fontawesome-svg-core';
 import { faGithub,faLinkedin ,faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Logo from '../Assets/Images/logo.png';
@@ -14,7 +13,7 @@ class Footer extends Component {
                         <div className="col-12">
                             <div className="footer-image">
                                 <a href="index.html">
-                                    <img src={Logo}/>
+                                    <img src={Logo} alt="logo"/>
                                 </a>
                             </div>
                         </div>
@@ -22,17 +21,17 @@ class Footer extends Component {
                             <div className="footer-menu">
                                 <ul className="d-flex " >
                                     <li>
-                                        <a href="https://github.com/ChMenguy" target="_blank">
+                                        <a href="https://github.com/ChMenguy" target="_blank" rel="noopener noreferrer">
                                             <FontAwesomeIcon icon={faGithub} />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://twitter.com/ChMengu" target="_blank">
+                                        <a href="https://twitter.com/ChMengu" target="_blank" rel="noopener noreferrer">
                                             <FontAwesomeIcon icon={faTwitter} />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.linkedin.com/in/chmenguy/" target="_blank">
+                                        <a href="https://www.linkedin.com/in/chmenguy/" target="_blank" rel="noopener noreferrer">
                                             <FontAwesomeIcon icon={faLinkedin} />
                                         </a>
                                     </li>

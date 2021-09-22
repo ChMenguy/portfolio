@@ -18,13 +18,13 @@ class About extends Component {
                                 <p style={{color:'white'}}>Mes services comprennent, au delà du developpement technique de la solution demandée, un véritable regard d'expert afin d'opter pour la meilleure option pour votre entreprise.</p>
                                 
                                 <div className="btns">
-                                    <a href={Pdf} target="_blank" className="theme-btn">Mon CV</a>
+                                    <a href={Pdf} rel="noopener noreferrer" target="_blank" className="theme-btn">Mon CV</a>
                                 </div>
                             </div>
                         </div>
                         <div className="col-xl-5 col-lg-5">
                             <div className="hx-about-img">
-                                <img src={aboutImg}/>
+                                <img src={aboutImg} alt="profil"/>
                             </div>
                         </div>
                     </div>

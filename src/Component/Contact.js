@@ -1,6 +1,5 @@
-import React, { Component, useRef, useState } from 'react';
+import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
-import ReactDOM from 'react-dom';
 import { useForm } from "react-hook-form";
 
 

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import serviceImg_1 from '../Assets/Images/front-end.jpg';
 import serviceImg_2 from '../Assets/Images/htmlcss.jpg';
 import serviceImg_3 from '../Assets/Images/framework.jpg';
@@ -99,13 +98,13 @@ class Service extends Component {
                             <div className="hx-service-item">
                                 <div className="hx-service-single">
                                     <div className="service-img">
-                                        <img src={serviceImg_5}/>
+                                        <img src={serviceImg_5} alt="design"/>
                                     </div>
                                     <div className="hx-service-content">
                                         <h3>Outil de design</h3>
                                         <div>
-                                            <img src={Photoshop} width="130px"></img>
-                                            <img src={Illustrator} width="130px"></img>  
+                                            <img src={Photoshop} width="130px" alt="photoshop"></img>
+                                            <img src={Illustrator} width="130px" alt="illustrator"></img>  
                                         </div>
                                     </div>
                                 </div>
@@ -115,13 +114,13 @@ class Service extends Component {
                             <div className="hx-service-item">
                                 <div className="hx-service-single">
                                     <div className="service-img">
-                                        <img src={serviceImg_6}/>
+                                        <img src={serviceImg_6} alt="cooperation"/>
                                     </div>
                                     <div className="hx-service-content">
                                         <h3>Outils de collaboration</h3>
                                         <div>
-                                            <img src={Git} width="130px"></img>
-                                            <img src={Slack} width="130px"></img>  
+                                            <img src={Git} width="130px" alt="git"></img>
+                                            <img src={Slack} width="130px" alt="slack"></img>  
                                         </div>
                                     </div>
 
