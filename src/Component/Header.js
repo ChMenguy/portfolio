@@ -30,7 +30,7 @@ class Header extends Component {
                                 <span className="icon-bar"></span>
                             </button>
                             <a className="navbar-brand" href="index.html">
-                                <img src={Logo} alt="" />
+                                <img src={Logo} alt="logo" />
                             </a>
                         </div>
                         <div id="navbar" className={ this.state.isOpen ? "navbar-collapse navigation-holder active" : "navbar-collapse navigation-holder"}>
