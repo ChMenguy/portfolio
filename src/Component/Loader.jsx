@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { func } from 'prop-types'
 import LogoLoad from '../Assets/Images/logoLoad.png';
 import ProgressBar from 'react-bootstrap/ProgressBar'
 
