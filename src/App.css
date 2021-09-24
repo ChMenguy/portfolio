@@ -1233,7 +1233,7 @@ button:focus {
   min-height: 850px;
 }
 
-.hero-style-1 .slide-subtitle h4{
+.hero-style-1 .slide-subtitle h1{
   font-size: 18px;
   font-size: 1.2rem;
   font-weight: 400;
@@ -1245,14 +1245,14 @@ button:focus {
 }
 
 @media (max-width: 991px) {
-  .hero-style-1 .slide-subtitle h4 {
+  .hero-style-1 .slide-subtitle h1 {
     font-size: 16px;
     font-size: 1.06667rem;
   }
 }
 
 @media (max-width: 767px) {
-  .hero-style-1 .slide-subtitle h4{
+  .hero-style-1 .slide-subtitle h1{
     font-size: 14px;
     font-size: 0.93333rem;
     letter-spacing: 4px;
@@ -1260,7 +1260,7 @@ button:focus {
 }
 
 
-.hero-style-1 .slide-title h2 {
+.hero-style-1 .slide-title h1 {
     font-size: 70px;
     font-size: 3.5rem;
     font-weight: bold;
@@ -1273,13 +1273,13 @@ button:focus {
 .hero-style-1 .slide-subtitle {
     margin-bottom: 0;
 }
-.hero-style-1 .slide-subtitle h4{
+.hero-style-1 .slide-subtitle h1{
     position: relative;
     margin-bottom: 0;
     display: inline-block;
 }
 
-.hero-style-1 .slide-subtitle h4:before {
+.hero-style-1 .slide-subtitle h1:before {
     content: "";
     position: absolute;
     right: -60px;
@@ -1290,7 +1290,7 @@ button:focus {
     transition: all .3s;
 }
 
-.hero-style-1 .slide-caption:hover h4:before{
+.hero-style-1 .slide-caption:hover h1:before{
   right: -80px;
 }
 @media (max-width: 1199px) {
@@ -1301,14 +1301,14 @@ button:focus {
 }
 
 @media (max-width: 991px) {
-  .hero-style-1 .slide-title h2{
+  .hero-style-1 .slide-title h1{
     font-size: 50px;
     font-size: 3.33333rem;
   }
 }
 
 @media (max-width: 767px) {
-  .hero-style-1 .slide-title h2 {
+  .hero-style-1 .slide-title h1 {
     font-size: 40px;
     font-size: 2.66667rem;
   }
