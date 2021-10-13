@@ -16,10 +16,10 @@ class Banner extends Component {
                             <div className="row">
                                 <div className="col col-md-8 col-sm-12 slide-caption">
                                     <div className="slide-subtitle">
-                                        <h4>Christophe Menguy</h4>
+                                        <h1>Christophe Menguy</h1>
                                     </div>
                                     <div className="slide-title">
-                                        <h2>Developpeur Front-end React</h2>
+                                        <h1>Developpeur Front-end React</h1>
                                     </div>
                                     <div className="btns">
                                         <a href="#contact" className="theme-btn go-contact-area">Contactez Moi</a>

@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.53f85e36.chunk.css",
-    "main.js": "/static/js/main.d210d422.chunk.js",
-    "main.js.map": "/static/js/main.d210d422.chunk.js.map",
+    "main.css": "/static/css/main.665c948d.chunk.css",
+    "main.js": "/static/js/main.1bfe483c.chunk.js",
+    "main.js.map": "/static/js/main.1bfe483c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a3f31acd.js",
     "runtime-main.js.map": "/static/js/runtime-main.a3f31acd.js.map",
     "static/css/2.366c97c1.chunk.css": "/static/css/2.366c97c1.chunk.css",
-    "static/js/2.d73f249c.chunk.js": "/static/js/2.d73f249c.chunk.js",
-    "static/js/2.d73f249c.chunk.js.map": "/static/js/2.d73f249c.chunk.js.map",
+    "static/js/2.714e2d8f.chunk.js": "/static/js/2.714e2d8f.chunk.js",
+    "static/js/2.714e2d8f.chunk.js.map": "/static/js/2.714e2d8f.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.366c97c1.chunk.css.map": "/static/css/2.366c97c1.chunk.css.map",
-    "static/css/main.53f85e36.chunk.css.map": "/static/css/main.53f85e36.chunk.css.map",
-    "static/js/2.d73f249c.chunk.js.LICENSE.txt": "/static/js/2.d73f249c.chunk.js.LICENSE.txt",
+    "static/css/main.665c948d.chunk.css.map": "/static/css/main.665c948d.chunk.css.map",
+    "static/js/2.714e2d8f.chunk.js.LICENSE.txt": "/static/js/2.714e2d8f.chunk.js.LICENSE.txt",
     "static/media/CV.890d0d95.pdf": "/static/media/CV.890d0d95.pdf",
     "static/media/about.a5875b23.jpg": "/static/media/about.a5875b23.jpg",
     "static/media/about.e08a82ed.png": "/static/media/about.e08a82ed.png",
@@ -25,7 +25,7 @@
     "static/media/htmlcss.6fbcace2.jpg": "/static/media/htmlcss.6fbcace2.jpg",
     "static/media/illustrator.5d58cdca.png": "/static/media/illustrator.5d58cdca.png",
     "static/media/js.166865da.png": "/static/media/js.166865da.png",
-    "static/media/logoLoad.55e154f4.png": "/static/media/logoLoad.55e154f4.png",
+    "static/media/logoLoad.ca2814d9.png": "/static/media/logoLoad.ca2814d9.png",
     "static/media/newsletter.ee2fc7d9.jpg": "/static/media/newsletter.ee2fc7d9.jpg",
     "static/media/photoshop.0c9242d3.png": "/static/media/photoshop.0c9242d3.png",
     "static/media/planeteculture.88b8b3a0.jpg": "/static/media/planeteculture.88b8b3a0.jpg",
@@ -43,8 +43,8 @@
   "entrypoints": [
     "static/js/runtime-main.a3f31acd.js",
     "static/css/2.366c97c1.chunk.css",
-    "static/js/2.d73f249c.chunk.js",
-    "static/css/main.53f85e36.chunk.css",
-    "static/js/main.d210d422.chunk.js"
+    "static/js/2.714e2d8f.chunk.js",
+    "static/css/main.665c948d.chunk.css",
+    "static/js/main.1bfe483c.chunk.js"
   ]
 }
