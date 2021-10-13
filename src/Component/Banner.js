@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { faGithub,faLinkedin , faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Slides from '../Assets/Images/slide-2.jpg';
+import Slides from '../Assets/Images/crossfit.jpg';
 
 class Banner extends Component {
     render() {
@@ -20,9 +20,10 @@ class Banner extends Component {
                                     </div>
                                     <div className="slide-title">
                                         <h1>Developpeur Front-end React</h1>
+                                        <p>Passionné de crossfit, je met au service mon expertise et mon energie pour vous aider à relever vos défis</p>
                                     </div>
                                     <div className="btns">
-                                        <a href="#contact" className="theme-btn go-contact-area">Contactez Moi</a>
+                                        <a href="#contact" className="theme-btn go-contact-area">Prenez un rendez-vous</a>
                                     </div>
                                 </div>
                             </div>
