@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { faGithub,faLinkedin , faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Slides from '../Assets/Images/slide-2.jpg';
+import Slides from '../Assets/Images/slide-2.png';
 
 class Banner extends Component {
     render() {
@@ -10,7 +10,7 @@ class Banner extends Component {
                 <div className="hero-slider">
                     <div className="slide">
                         <div className="slider-image">
-                            <img src={Slides} alt="slider" style={{opacity:"0.8"}}/>
+                            <img src={Slides} alt="slider"/>
                         </div>
                         <div className="container">
                             <div className="row">
