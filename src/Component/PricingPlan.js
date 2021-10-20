@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class PricingPlan extends Component {
     render() {
         return (
-            <div className="pricing-area ptb-100-70" id="price">
+            <div className="pricing-area ptb-100-70" style={{backgroundColor:'#002735'}} id="price">
                 <div className="container">
                     <div className="section-title text-center">
                         <span>I Give You The Best</span>
@@ -29,7 +29,7 @@ class PricingPlan extends Component {
                                                 <li>Référencement</li>
                                             </ul>
                                             <div className="pricing-footer">
-                                                <div className="theme-btn"><a href="#contact">Demander un devis</a></div>
+                                                <div className="theme-btn"><a href="#contact">Planifier un entretien</a></div>
                                             </div>
                                         </div>
                                     </div>
@@ -52,7 +52,7 @@ class PricingPlan extends Component {
                                                 s
                                             </ul>
                                             <div className="pricing-footer pricing-footer-2">
-                                                <div className="theme-btn"><a href="#contact">Demander un devis</a></div>
+                                                <div className="theme-btn"><a href="#contact">Planifier un entretien</a></div>
                                             </div>
                                         </div>
                                     </div>
@@ -74,7 +74,7 @@ class PricingPlan extends Component {
                                                 <li>Applications Web</li>
                                             </ul>
                                             <div className="pricing-footer">
-                                                <div className="theme-btn"><a href="#contact">Demander un devis</a></div>
+                                                <div className="theme-btn"><a href="#contact">Planifier un entretien</a></div>
                                             </div>
                                         </div>
                                     </div>

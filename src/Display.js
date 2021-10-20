@@ -27,8 +27,8 @@ function Display() {
                 <Navbar />
                 <Banner/>
                 <About/>
-                <Service/>
                 <Portfolio/>
+                <Service/>
                 <PricingPlan/>
                 <Contact/>
                 <Footer/>

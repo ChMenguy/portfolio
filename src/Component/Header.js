@@ -1,12 +1,12 @@
 import React, { Component} from 'react';
 import Logo from '../Assets/Images/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Home_1 from '../Assets/Images/home/home.jpg';
+import Home_1 from '../Assets/Images/home/home.png';
 import Home_2 from '../Assets/Images/home/about.jpg';
-import Home_3 from '../Assets/Images/home/skills.jpg';
-import Home_4 from '../Assets/Images/home/portfolio.jpg';
-import Home_5 from '../Assets/Images/home/price.jpg';
-import Home_6 from '../Assets/Images/home/contact.jpg';
+import Home_3 from '../Assets/Images/home/skills.png';
+import Home_4 from '../Assets/Images/home/portfolio.png';
+import Home_5 from '../Assets/Images/home/price.png';
+import Home_6 from '../Assets/Images/home/contact.png';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
 class Header extends Component {
@@ -51,14 +51,14 @@ class Header extends Component {
                                         <img src={Home_2} alt=""/>
                                     </a>
                                 </li>
-                                <li className="service">
-                                    <a href="#service">
-                                        <img src={Home_3} alt=""/>
-                                    </a>
-                                </li>
                                 <li className="portfolio">
                                     <a href="#portfolio">
                                         <img src={Home_4} alt=""/>
+                                    </a>
+                                </li>
+                                <li className="service">
+                                    <a href="#service">
+                                        <img src={Home_3} alt=""/>
                                     </a>
                                 </li>
                                 <li className="price">

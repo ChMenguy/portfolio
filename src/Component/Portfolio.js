@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Gallery_1 from '../Assets/Images/gallery/planeteculture.jpg';
-import Gallery_2 from '../Assets/Images/gallery/newsletter.jpg';
-import Gallery_6 from '../Assets/Images/gallery/portfolio.jpg';
+import Gallery_1 from '../Assets/Images/gallery/tabataportfolio.png';
+import Gallery_2 from '../Assets/Images/gallery/portfolio2.png';
+import Gallery_3 from '../Assets/Images/gallery/portfolioCrossfitWarrior.png';
 
 import WordPressLogo from '../Assets/Images/skills/wordpress.png'; 
 import Html from '../Assets/Images/skills/html.png';
@@ -20,7 +20,7 @@ class Porfolio extends Component {
         
         return (
             <section id="portfolio" className="gallery-section section-padding">
-                <div className="container">
+                <div className="container-fluid">
                     <div className="row">
                         <div className="col col-xs-12 sortable-gallery">
                             <div className="gallery-filters">
@@ -29,6 +29,35 @@ class Porfolio extends Component {
                                     <h2>Projets réalisés</h2>
                                 </div>
                             </div>
+                            <div className="row" style={{margin : "20px", padding:"20px", backgroundColor:"#202020"}}>                                
+                                <div className="col-lg-4" style={{color:"white"}}> 
+                                    <h3 style={{color:"white"}}>APPLICATION TABATA</h3>
+                                    <h6 style={{color:"white"}}>REACTJS - REACT ROUTER - TAILWIND - WORKOUT</h6>
+                                </div>
+                                <div className="col-lg-8"> 
+                                    <img src={Gallery_1} alt="portfolio"></img>
+                                </div>                                
+                            </div> 
+                            <div className="row" style={{margin : "20px"}}>
+                                <div className="col-lg-4" style={{color:"white"}}> 
+                                    <h3 style={{color:"white"}}>SITE PART NUMERIQUE</h3>
+                                    <h6 style={{color:"white"}}>CREATION DE SITE - RESPONSIVE - WORDPRESS </h6>
+                                </div>
+                                <div className="col-lg-8"> 
+                                    <img src={Gallery_2} alt="portfolio"></img>
+                                </div>
+                            </div>
+                            <div className="row" style={{margin : "20px", padding:"20px", backgroundColor:"#202020"}}>                                
+                                <div className="col-lg-4" style={{color:"white"}}> 
+                                    <h3 style={{color:"white"}}>CROSSFIT WARRIOR</h3>
+                                    <h6 style={{color:"white"}}>REACTJS - API - BOOTSTRAP - WOD</h6>
+                                </div>
+                                <div className="col-lg-8"> 
+                                    <img src={Gallery_3} alt="portfolio"></img>
+                                </div>                                
+                            </div> 
+
+                            {/*
                             <div className="gallery-container gallery-fancybox masonry-gallery tumho-masonary">
                               
                                 <div className={this.state.isOpen ? "grid" : "grid open"
@@ -75,6 +104,7 @@ class Porfolio extends Component {
                                     </div>
                                 </div>
                             </div>
+                                */}
                         </div>
                     </div>
                 </div>

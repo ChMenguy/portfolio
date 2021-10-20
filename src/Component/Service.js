@@ -30,6 +30,84 @@ class Service extends Component {
                             <h2>Mes compétences</h2>
                         </div>
                     </div>
+                    <div className="row" >
+                        <div className="row col-md-6 mb-4" style={{justifyContent:'center'}}>
+                            <div>
+                                <h3  style={{color:"white", textAlign : 'center'}}>Intégration Web</h3> 
+                                <div className="row">
+                                    <div>
+                                        <img src={Html} alt="html" width="150px"></img>
+                                        <h5 style={{color:"white", textAlign : 'center'}}>HTML</h5>
+                                    </div>
+                                    <div>
+                                        <img src={Css} alt="css" width="150px"></img>
+                                        <h5 style={{color:"white", textAlign : 'center'}}>CSS</h5>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                        <div className="row col-md-6" style={{justifyContent:'center'}}>
+                            <div>
+                                <h3  style={{color:"white", textAlign : 'center'}}>Front-End</h3> 
+                                <div className="row mt-4">
+                                    <div className="mx-2">
+                                        <img src={Js} alt="html" width="130px"></img>
+                                        <h5 style={{color:"white", textAlign : 'center'}}>JavaScript</h5>
+                                    </div>
+                                    <div className="mx-2">
+                                        <img src={ReactLogo} alt="css" width="130px"></img>
+                                        <h5 style={{color:"white", textAlign : 'center'}}>ReactJS</h5>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>                        
+                    </div>
+                    <div className="row col-12">
+                        <div className="row col-md-12 mb-4 ml-auto mr-auto" style={{justifyContent:'center'}}>
+                            <div>
+                                <h3  style={{color:"white", textAlign : 'center'}}>Gestionnaire de contenus</h3> 
+                                <div className="row" style={{justifyContent:'center'}}>
+                                    <div>
+                                        <img className="p-3" src={WordPressLogo} alt="html" width="150px"></img>
+                                        <h5 style={{color:"white", textAlign : 'center'}}>WordPress</h5>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="row col-md-6 mb-4" style={{justifyContent:'center'}}>
+                            <div>
+                                <h3  style={{color:"white", textAlign : 'center'}}>Framework CSS</h3> 
+                                <div className="row">
+                                    <div>
+                                        <img className="p-3" src={Bootstap} alt="html" width="150px"></img>
+                                        <h5 style={{color:"white", textAlign : 'center'}}>Bootstap</h5>
+                                    </div>
+                                    <div>
+                                        <img className="p-3" src={Tailwind} alt="css" width="150px"></img>
+                                        <h5 style={{color:"white", textAlign : 'center'}}>Tailwind</h5>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                        <div className="row col-md-6" style={{justifyContent:'center'}}>
+                            <div>
+                                <h3  style={{color:"white", textAlign : 'center'}}>Outils de collaboration</h3> 
+                                <div className="row mt-4">
+                                    <div className="mx-2">
+                                        <img src={Git} alt="html" width="130px"></img>
+                                        <h5 style={{color:"white", textAlign : 'center'}}>Git</h5>
+                                    </div>
+                                    <div className="mx-2">
+                                        <img src={Slack} alt="css" width="130px"></img>
+                                        <h5 style={{color:"white", textAlign : 'center'}}>Slack</h5>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>                        
+                    </div>
+                    {/*
                     <div className="row">
                         <div className="col-md-4 col-sm-6 grid col-12">
                             <div className="hx-service-item">
@@ -128,6 +206,7 @@ class Service extends Component {
                             </div>
                         </div>
                     </div>
+                    */}
                 </div>
             </div>
         );
