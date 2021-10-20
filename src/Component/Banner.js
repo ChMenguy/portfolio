@@ -20,7 +20,7 @@ class Banner extends Component {
                                     </div>
                                     <div className="slide-title">
                                         <h1>Developpeur Front-end React</h1>
-                                        <h4 style={{color:"white"}}>Passionné d'informatique et de crossfit, je met au service mon expertise et mon énergie pour vous aider à relever vos défis</h4>
+                                        <h4 style={{color:"white"}}>Passionné d'informatique et de crossfit, je met à votre service mon expertise et mon énergie pour vous aider à relever vos défis</h4>
                                     </div>
                                     <div className="btns">
                                         <a href="#contact" className="theme-btn go-contact-area">Prenez un rendez-vous</a>
