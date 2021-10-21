@@ -74,11 +74,11 @@ class Service extends Component {
                                 <h3  style={{color:"white", textAlign : 'center'}}>Framework CSS</h3> 
                                 <div className="row">
                                     <div>
-                                        <img className="p-3" src={Bootstap} alt="bootstrap" width="150px"></img>
+                                        <img className="p-3" src={Bootstap} alt="bootstrap" width="130px"></img>
                                         <h5 style={{color:"white", textAlign : 'center'}}>Bootstap</h5>
                                     </div>
                                     <div>
-                                        <img className="p-3" src={Tailwind} alt="tailwind" width="150px"></img>
+                                        <img className="p-3" src={Tailwind} alt="tailwind" width="130px"></img>
                                         <h5 style={{color:"white", textAlign : 'center'}}>Tailwind</h5>
                                     </div>
                                 </div>    
@@ -89,11 +89,11 @@ class Service extends Component {
                                 <h3  style={{color:"white", textAlign : 'center'}}>Outils de collaboration</h3> 
                                 <div className="row mt-4">
                                     <div className="mx-2">
-                                        <img src={Git} alt="git" width="150px" className="p-3"></img>
+                                        <img src={Git} alt="git" width="130px" className="p-3"></img>
                                         <h5 style={{color:"white", textAlign : 'center'}}>Git</h5>
                                     </div>
                                     <div className="mx-2">
-                                        <img src={Slack} alt="slack" width="150px" className="p-3"></img>
+                                        <img src={Slack} alt="slack" width="130px" className="p-3"></img>
                                         <h5 style={{color:"white", textAlign : 'center'}}>Slack</h5>
                                     </div>
                                 </div>    
