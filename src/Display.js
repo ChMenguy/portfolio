@@ -29,7 +29,7 @@ function Display() {
                 <About/>
                 <Portfolio/>
                 <Service/>
-                <PricingPlan/>
+                {/*<PricingPlan/>*/}
                 <Contact/>
                 <Footer/>
             </div>
