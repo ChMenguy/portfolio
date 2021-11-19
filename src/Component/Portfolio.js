@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Gallery_1 from '../Assets/Images/gallery/tabataportfolio.png';
 import Gallery_2 from '../Assets/Images/gallery/portfolio2.png';
 import Gallery_3 from '../Assets/Images/gallery/portfolioCrossfitWarrior.png';
+import Gallery_4 from '../Assets/Images/gallery/cross_programs.png'
 
 class Porfolio extends Component {
 
@@ -20,6 +21,15 @@ class Porfolio extends Component {
                                 <div className="section-title">
                                     <span>Portfolio</span>
                                     <h2>Projets réalisés</h2>
+                                </div>
+                            </div>
+                            <div className="row" style={{margin : "20px"}}>
+                                <div className="col-lg-12" style={{color:"white"}}> 
+                                    <h3 style={{color:"white"}}>CROSS-PROGRAMS</h3>
+                                    <h6 style={{color:"white",fontSize:"14px"}}>REACTJS - TAILWIND - RESPONSIVE - COACHING </h6>
+                                </div>
+                                <div className="col-lg-12"> 
+                                    <img src={Gallery_4} alt="portfolio"></img>
                                 </div>
                             </div>
                             <div className="row" style={{margin : "20px", padding:"20px"}}>                                
