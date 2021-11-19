@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.9ff50ebc.chunk.css",
-    "main.js": "/static/js/main.9aee790b.chunk.js",
-    "main.js.map": "/static/js/main.9aee790b.chunk.js.map",
+    "main.js": "/static/js/main.7bd181a2.chunk.js",
+    "main.js.map": "/static/js/main.7bd181a2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a3f31acd.js",
     "runtime-main.js.map": "/static/js/runtime-main.a3f31acd.js.map",
     "static/css/2.366c97c1.chunk.css": "/static/css/2.366c97c1.chunk.css",
@@ -16,6 +16,7 @@
     "static/media/about.e08a82ed.png": "/static/media/about.e08a82ed.png",
     "static/media/bootstrap.1d5ee963.png": "/static/media/bootstrap.1d5ee963.png",
     "static/media/contact.54887d71.png": "/static/media/contact.54887d71.png",
+    "static/media/cross_programs.d4f096cf.png": "/static/media/cross_programs.d4f096cf.png",
     "static/media/css.7e9d20e9.png": "/static/media/css.7e9d20e9.png",
     "static/media/home.6b0ee43e.png": "/static/media/home.6b0ee43e.png",
     "static/media/html.df695039.png": "/static/media/html.df695039.png",
@@ -23,13 +24,13 @@
     "static/media/logoLoad.ca2814d9.png": "/static/media/logoLoad.ca2814d9.png",
     "static/media/portfolio.ee7836f4.png": "/static/media/portfolio.ee7836f4.png",
     "static/media/portfolio2.bc9aac2b.png": "/static/media/portfolio2.bc9aac2b.png",
-    "static/media/portfolioCrossfitWarrior.5808480a.png": "/static/media/portfolioCrossfitWarrior.5808480a.png",
+    "static/media/portfolioCrossfitWarrior.b908676f.png": "/static/media/portfolioCrossfitWarrior.b908676f.png",
     "static/media/price.9bbe2d06.png": "/static/media/price.9bbe2d06.png",
     "static/media/react.20adfb35.png": "/static/media/react.20adfb35.png",
     "static/media/skills.51158649.png": "/static/media/skills.51158649.png",
     "static/media/slack.4845d852.png": "/static/media/slack.4845d852.png",
     "static/media/Responsive.css": "/static/media/slide-2.31191988.png",
-    "static/media/tabataportfolio.db2e9691.png": "/static/media/tabataportfolio.db2e9691.png",
+    "static/media/tabata_app.d3acf9e6.png": "/static/media/tabata_app.d3acf9e6.png",
     "static/media/wordpress.983d051c.png": "/static/media/wordpress.983d051c.png"
   },
   "entrypoints": [
@@ -37,6 +38,6 @@
     "static/css/2.366c97c1.chunk.css",
     "static/js/2.35e30ba0.chunk.js",
     "static/css/main.9ff50ebc.chunk.css",
-    "static/js/main.9aee790b.chunk.js"
+    "static/js/main.7bd181a2.chunk.js"
   ]
 }
