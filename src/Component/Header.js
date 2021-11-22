@@ -61,11 +61,6 @@ class Header extends Component {
                                         <img src={Home_3} alt=""/>
                                     </a>
                                 </li>
-                                <li className="price">
-                                    <a href="#price">
-                                        <img src={Home_5} alt=""/>
-                                    </a>
-                                </li>
                                 <li className="contact">
                                     <a href="#contact">
                                         <img src={Home_6} alt=""/>
