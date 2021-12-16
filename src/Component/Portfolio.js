@@ -42,16 +42,6 @@ class Porfolio extends Component {
                                     </div>      
                                 ))
                             }
- 
-                            {/*<div className="row" style={{margin : "20px"}}>
-                                <div className="col-lg-12" style={{color:"white"}}> 
-                                    <h3 style={{color:"white"}}>SITE PART NUMERIQUE</h3>
-                                    <h6 style={{color:"white",fontSize:"14px"}}>CREATION DE SITE - RESPONSIVE - WORDPRESS </h6>
-                                </div>
-                                <div className="col-lg-12"> 
-                                    <img src={Gallery_2} alt="portfolio"></img>
-                                </div>
-                            </div>*/}
 
                         </div>
                     </div>
